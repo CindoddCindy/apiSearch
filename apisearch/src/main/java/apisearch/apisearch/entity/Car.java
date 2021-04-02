@@ -41,7 +41,9 @@ public class Car {
     @Column(nullable = false)
     private String country;
 
-
-    @Column(nullable = false)
+/*
+    @Column(nullable = true)
     private LocalDate createDate;
+
+ */
 }
